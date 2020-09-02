@@ -4,6 +4,7 @@
   "description": "bootstrap",
   "main": "index.js",
   "scripts": {
+    "deploy": "firebase deploy",
     "dev": "webpack-dev-server --config ./webpack.config.js --mode development --inline --progress --colors --devtool=source-map",
     "build": "webpack --bail --progress --profile --mode production --env=prod --log-level=5",
     "test": "echo \"Error: no test specified\" && exit 1"

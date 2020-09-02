@@ -4,10 +4,28 @@
     <meta charset="utf-8" />
     <title><%= htmlWebpackPlugin.options.title %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="manifest" href="manifest.webmanifest" />
   </head>
   <body>
-    <img src="icon/fox-icon.png" alt="a fox picture" />
-    <button class="add-button">Add to home screen</button>
+    <!-- <img src="icon/fox-icon.png" alt="a fox picture" /> -->
+    <div id="header"></div>
+    <div class="container">
+      <div class="image">
+        <img id="img1" class="images" alt="img1" />
+      </div>
+      <div class="image">
+        <img id="img2" class="images" alt="img2" />
+      </div>
+      <div class="image">
+        <img id="img3" class="images" alt="img3" />
+      </div>
+      <div class="image">
+        <img id="img4" class="images" alt="img4" />
+      </div>
+    </div>
+    <figure>
+      <button id="play-button" name="play"></button>
+    </figure>
+    <!-- <button class="add-button">Add to home screen</button> -->
   </body>
 </html>
